@@ -1,0 +1,42 @@
+{
+  "group": "amberutils",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "amberutils:amberoreblock"
+    },
+    "1": {
+      "item": "amberutils:amberoreblock"
+    },
+    "2": {
+      "item": "amberutils:amberoreblock"
+    },
+    "3": {
+      "item": "amberutils:amberoreblock"
+    },
+    "4": {
+      "item": "minecraft:apple"
+    },
+    "5": {
+      "item": "amberutils:amberoreblock"
+    },
+    "6": {
+      "item": "amberutils:amberoreblock"
+    },
+    "7": {
+      "item": "amberutils:amberoreblock"
+    },
+    "8": {
+      "item": "amberutils:amberoreblock"
+    }
+  },
+  "result": {
+    "item": "amberutils:amberapple",
+    "count": 1
+  }
+}

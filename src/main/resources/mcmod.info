@@ -1,0 +1,20 @@
+[
+  {
+    "modid": "amberutils",
+    "name": "Amber Utilities",
+    "description": "",
+    "version": "1.0.0",
+    "credits": "This has been created using mod maker MCreator - https://mcreator.net/about please take a look, they make an awesome work.",
+    "logoFile": "",
+    "mcversion": "1.12.2",
+    "url": "https://mcreator.net",
+    "updateUrl": "",
+    "authorList": [
+      "Alonsinwhat"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "requiredMods": [],
+    "useDependencyInformation": "true"
+  }
+]

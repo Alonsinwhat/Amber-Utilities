@@ -1,0 +1,195 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "AmberOre",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AmberOreBlock",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AmberGem",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AmberOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AmberBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AlonsinwhatMod",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AmberApple",
+      "type": "food",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TryingNewFoods",
+      "type": "achievement",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AmberAppleEaten",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmberAppleCraftingRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "WhatIsThis",
+      "type": "achievement",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Amber",
+      "type": "tag",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AmberBlock",
+      "type": "tag",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AmberOrTag",
+      "type": "tag",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AmberCoalItem",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AmberCoalUsage",
+      "type": "fuel",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AmberOreSmelt",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.ambercoalitem.name": "Amber Coal Item",
+      "item.amberapple.name": "Amber Apple",
+      "advancements.tryingnewfoods.title": "Trying New Foods",
+      "item.ambergem.name": "Amber",
+      "advancements.whatisthis.title": "What Is This?",
+      "tile.amberore.name": "Amber Ore",
+      "advancements.tryingnewfoods.descr": "Eat an amber apple for the first time",
+      "tile.amberoreblock.name": "Block of Amber",
+      "itemGroup.tabalonsinwhatmod": "Amber Utilities",
+      "advancements.whatisthis.descr": "Get Amber"
+    },
+    "es_cl": {
+      "item.ambercoalitem.name": "Amber Coal Item",
+      "item.amberapple.name": "Manzana De Ámbar",
+      "advancements.tryingnewfoods.title": "Probando Nuevas Comidas",
+      "item.ambergem.name": "Ámbar",
+      "advancements.whatisthis.title": "Qué es esto?",
+      "tile.amberore.name": "Mena de Ámbar",
+      "advancements.tryingnewfoods.descr": "Cómete una Manzana de Ámbar por primera vez",
+      "tile.amberoreblock.name": "Bloque de Ámbar",
+      "itemGroup.tabalonsinwhatmod": "Amber Utilities",
+      "advancements.whatisthis.descr": "Consigue Ámbar"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "amberutils",
+    "modName": "Amber Utilities",
+    "version": "1.0.0",
+    "author": "Alonsinwhat",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "1.12.2",
+    "credits": "This has been created using mod maker MCreator - https://mcreator.net/about please take a look, they make an awesome work.",
+    "modElementsPackage": "net.mcreator.alonsinwhatmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000214217
+}

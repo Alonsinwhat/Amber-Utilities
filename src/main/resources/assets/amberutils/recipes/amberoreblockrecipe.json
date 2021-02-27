@@ -1,0 +1,42 @@
+{
+  "group": "amberutils",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "amberutils:ambergem"
+    },
+    "1": {
+      "item": "amberutils:ambergem"
+    },
+    "2": {
+      "item": "amberutils:ambergem"
+    },
+    "3": {
+      "item": "amberutils:ambergem"
+    },
+    "4": {
+      "item": "amberutils:ambergem"
+    },
+    "5": {
+      "item": "amberutils:ambergem"
+    },
+    "6": {
+      "item": "amberutils:ambergem"
+    },
+    "7": {
+      "item": "amberutils:ambergem"
+    },
+    "8": {
+      "item": "amberutils:ambergem"
+    }
+  },
+  "result": {
+    "item": "amberutils:amberoreblock",
+    "count": 1
+  }
+}

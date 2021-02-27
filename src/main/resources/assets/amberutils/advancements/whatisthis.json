@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "amberutils:ambergem"
+    },
+    "title": {
+      "translate": "advancements.whatisthis.title"
+    },
+    "description": {
+      "translate": "advancements.whatisthis.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "whatisthis": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "amberutils:ambergem",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "amberutils:tryingnewfoods"
+}

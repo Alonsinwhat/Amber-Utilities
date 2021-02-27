@@ -1,0 +1,31 @@
+{
+  "display": {
+    "background": "minecraft:textures/blocks/stone.png",
+    "icon": {
+      "item": "amberutils:amberoreblock"
+    },
+    "title": {
+      "translate": "advancements.tryingnewfoods.title"
+    },
+    "description": {
+      "translate": "advancements.tryingnewfoods.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "tryingnewfoods": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "amberutils:amberapple"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  }
+}

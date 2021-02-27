@@ -1,0 +1,13 @@
+{
+  "group": "amberutils",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "amberutils:amberoreblock"
+    }
+  ],
+  "result": {
+    "item": "amberutils:ambergem",
+    "count": 9
+  }
+}
