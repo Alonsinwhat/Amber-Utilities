@@ -307,6 +307,38 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "SuperAmberAppleFoodEaten",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SuperAmberApple",
+      "type": "food",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SuperAmberAppleRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -314,6 +346,7 @@
   "language_map": {
     "en_us": {
       "fluid.liquidamber": "LiquidAmber",
+      "item.superamberapple.name": "Super Amber Apple",
       "item.ambergem.name": "Amber",
       "advancements.ewwthatisviscous.title": "Eww, That Is Viscous",
       "advancements.ewwthatisviscous.descr": "Touch Liquid Amber... Eww",
@@ -332,6 +365,7 @@
     },
     "es_cl": {
       "fluid.liquidamber": "LiquidAmber",
+      "item.superamberapple.name": "Super Amber Apple",
       "item.ambergem.name": "Ámbar",
       "advancements.ewwthatisviscous.title": "Eww That Is Viscous",
       "advancements.ewwthatisviscous.descr": "Touch Liquid Amber... Eww",
