@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "amberutils:melter"
+    },
+    "facing=north": {
+      "model": "amberutils:melter"
+    },
+    "facing=east": {
+      "model": "amberutils:melter",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "amberutils:melter",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "amberutils:melter",
+      "y": 270
+    }
+  }
+}

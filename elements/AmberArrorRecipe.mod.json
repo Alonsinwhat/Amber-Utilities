@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 2,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AmberGem"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AmberGem"
+      },
+      {
+        "value": "Items.ARROW"
+      },
+      {
+        "value": "CUSTOM:AmberGem"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AmberGem"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AmberArrow"
+    },
+    "name": "amberarrorrecipe",
+    "namespace": "mod"
+  }
+}

@@ -3,13 +3,13 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "mberem",
+    "texture": "mberucket",
     "customModelName": "Normal",
-    "name": "Amber",
+    "name": "Amber Bucket",
     "creativeTab": {
       "value": "CUSTOM:AlonsinwhatMod"
     },
-    "stackSize": 64,
+    "stackSize": 1,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
@@ -18,7 +18,12 @@
     "stayInGridWhenCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [],
-    "hasGlow": false
+    "specialInfo": [
+      "WARNING! First use will destroy the block it is used on since the amber is still hot."
+    ],
+    "hasGlow": false,
+    "onRightClickedOnBlock": {
+      "name": "AmberBucketRightClickedOnBlock"
+    }
   }
 }

@@ -1,0 +1,79 @@
+{
+  "_fv": 6,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Melter",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Melter",
+          "x": 390,
+          "y": 90
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "onSlotChanged": {
+            "name": "Melting"
+          },
+          "name": "Slot #0",
+          "x": 323,
+          "y": 117
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "onSlotChanged": {
+            "name": "Melting"
+          },
+          "name": "Slot #1",
+          "x": 387,
+          "y": 145
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 2,
+          "onSlotChanged": {
+            "name": "Melting"
+          },
+          "name": "Slot #2",
+          "x": 322,
+          "y": 177
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 4,
+          "name": "Slot #4",
+          "x": 481,
+          "y": 146
+        }
+      }
+    ]
+  }
+}

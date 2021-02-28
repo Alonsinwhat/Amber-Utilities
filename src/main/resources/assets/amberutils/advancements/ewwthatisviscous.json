@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "amberutils:liquidamber"
+    },
+    "title": {
+      "translate": "advancements.ewwthatisviscous.title"
+    },
+    "description": {
+      "translate": "advancements.ewwthatisviscous.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ewwthatisviscous": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "parent": "amberutils:whatisthis"
+}

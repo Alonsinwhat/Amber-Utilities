@@ -1,0 +1,17 @@
+{
+  "group": "amberutils",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:coal",
+      "data": 0
+    },
+    {
+      "item": "amberutils:amberoreblock"
+    }
+  ],
+  "result": {
+    "item": "amberutils:ambercoalitem",
+    "count": 1
+  }
+}

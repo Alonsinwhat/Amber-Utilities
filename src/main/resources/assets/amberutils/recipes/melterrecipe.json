@@ -1,0 +1,42 @@
+{
+  "group": "amberutils",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "amberutils:amberoreblock"
+    },
+    "1": {
+      "item": "minecraft:glass"
+    },
+    "2": {
+      "item": "amberutils:amberoreblock"
+    },
+    "3": {
+      "item": "amberutils:ambergem"
+    },
+    "4": {
+      "item": "minecraft:furnace"
+    },
+    "5": {
+      "item": "amberutils:ambergem"
+    },
+    "6": {
+      "item": "amberutils:amberoreblock"
+    },
+    "7": {
+      "item": "amberutils:ambergem"
+    },
+    "8": {
+      "item": "amberutils:amberoreblock"
+    }
+  },
+  "result": {
+    "item": "amberutils:melter",
+    "count": 1
+  }
+}

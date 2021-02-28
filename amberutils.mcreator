@@ -1,5 +1,8 @@
 {
-  "id_map": {},
+  "id_map": {
+    "ENTITY": 1,
+    "GUI": 1
+  },
   "mod_elements": [
     {
       "name": "AmberOre",
@@ -144,28 +147,200 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "EwwThatIsViscous",
+      "type": "achievement",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LiquidAmberCollisionEntity",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LiquidAmber",
+      "type": "fluid",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Melter",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MelterGUI",
+      "type": "gui",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 1
+      }
+    },
+    {
+      "name": "Melting",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmberBucketRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmberBucket",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AmberCoalRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MelterRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AmberArrowBulletHitsPlayer",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmberArrow",
+      "type": "gun",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 1
+      }
+    },
+    {
+      "name": "AmberArrorRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "fluid.liquidamber": "LiquidAmber",
+      "item.ambergem.name": "Amber",
+      "advancements.ewwthatisviscous.title": "Eww, That Is Viscous",
+      "advancements.ewwthatisviscous.descr": "Touch Liquid Amber... Eww",
+      "item.amberbucket.name": "Amber Bucket",
+      "item.amberarrow.name": "Amber Arrow",
       "item.ambercoalitem.name": "Amber Coal Item",
+      "tile.melter.name": "Melter",
       "item.amberapple.name": "Amber Apple",
       "advancements.tryingnewfoods.title": "Trying New Foods",
-      "item.ambergem.name": "Amber",
       "advancements.whatisthis.title": "What Is This?",
       "tile.amberore.name": "Amber Ore",
-      "advancements.tryingnewfoods.descr": "Eat an amber apple for the first time",
+      "advancements.tryingnewfoods.descr": "Eat an amber apple for the first time. This will give you Haste and glowing effects, with high saturation too.",
       "tile.amberoreblock.name": "Block of Amber",
       "itemGroup.tabalonsinwhatmod": "Amber Utilities",
       "advancements.whatisthis.descr": "Get Amber"
     },
     "es_cl": {
+      "fluid.liquidamber": "LiquidAmber",
+      "item.ambergem.name": "Ámbar",
+      "advancements.ewwthatisviscous.title": "Eww That Is Viscous",
+      "advancements.ewwthatisviscous.descr": "Touch Liquid Amber... Eww",
+      "item.amberbucket.name": "Amber Bucket",
+      "item.amberarrow.name": "Amber Arrow",
       "item.ambercoalitem.name": "Amber Coal Item",
+      "tile.melter.name": "Melter",
       "item.amberapple.name": "Manzana De Ámbar",
       "advancements.tryingnewfoods.title": "Probando Nuevas Comidas",
-      "item.ambergem.name": "Ámbar",
       "advancements.whatisthis.title": "Qué es esto?",
       "tile.amberore.name": "Mena de Ámbar",
       "advancements.tryingnewfoods.descr": "Cómete una Manzana de Ámbar por primera vez",

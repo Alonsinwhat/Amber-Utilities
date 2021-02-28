@@ -34,6 +34,8 @@ import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.block.Block;
 
+import net.mcreator.alonsinwhatmod.gui.GuiMelterGUI;
+
 import java.util.function.Supplier;
 import java.util.Random;
 import java.util.Map;
@@ -125,11 +127,15 @@ public class ElementsAmberUtilities implements IFuelHandler, IWorldGenerator {
 	public static class GuiHandler implements IGuiHandler {
 		@Override
 		public Object getServerGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
+			if (id == GuiMelterGUI.GUIID)
+				return new GuiMelterGUI.GuiContainerMod(world, x, y, z, player);
 			return null;
 		}
 
 		@Override
 		public Object getClientGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
+			if (id == GuiMelterGUI.GUIID)
+				return new GuiMelterGUI.GuiWindow(world, x, y, z, player);
 			return null;
 		}
 	}

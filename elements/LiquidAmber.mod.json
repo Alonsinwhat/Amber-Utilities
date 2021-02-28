@@ -1,0 +1,22 @@
+{
+  "_fv": 6,
+  "_type": "fluid",
+  "definition": {
+    "name": "LiquidAmber",
+    "textureStill": "mberater",
+    "textureFlowing": "mberater",
+    "luminosity": 0,
+    "density": 1000,
+    "viscosity": 3000,
+    "isGas": false,
+    "type": "WATER",
+    "generateBucket": true,
+    "creativeTab": {
+      "value": "CUSTOM:AlonsinwhatMod"
+    },
+    "spawnWorldTypes": [],
+    "onEntityCollides": {
+      "name": "LiquidAmberCollisionEntity"
+    }
+  }
+}

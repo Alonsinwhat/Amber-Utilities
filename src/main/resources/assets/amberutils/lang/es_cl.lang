@@ -1,7 +1,13 @@
+fluid.liquidamber=LiquidAmber
+item.ambergem.name=Ámbar
+advancements.ewwthatisviscous.title=Eww That Is Viscous
+advancements.ewwthatisviscous.descr=Touch Liquid Amber... Eww
+item.amberbucket.name=Amber Bucket
+item.amberarrow.name=Amber Arrow
 item.ambercoalitem.name=Amber Coal Item
+tile.melter.name=Melter
 item.amberapple.name=Manzana De Ámbar
 advancements.tryingnewfoods.title=Probando Nuevas Comidas
-item.ambergem.name=Ámbar
 advancements.whatisthis.title=Qué es esto?
 tile.amberore.name=Mena de Ámbar
 advancements.tryingnewfoods.descr=Cómete una Manzana de Ámbar por primera vez

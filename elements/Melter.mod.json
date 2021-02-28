@@ -2,16 +2,16 @@
   "_fv": 6,
   "_type": "block",
   "definition": {
-    "texture": "mberore",
-    "textureTop": "",
+    "texture": "furnaceide",
+    "textureTop": "elterop",
     "textureLeft": "",
-    "textureFront": "",
+    "textureFront": "urnaceff",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 11,
-    "customModelName": "Single texture",
-    "rotationMode": 0,
-    "hasTransparency": false,
+    "renderType": 10,
+    "customModelName": "Normal",
+    "rotationMode": 1,
+    "hasTransparency": true,
     "transparencyType": "SOLID",
     "mx": 0.0,
     "my": 0.0,
@@ -20,10 +20,12 @@
     "My": 1.0,
     "Mz": 1.0,
     "faceShape": "SOLID",
-    "name": "Amber Ore",
-    "specialInfo": [],
+    "name": "Melter",
+    "specialInfo": [
+      "Melts amber into liquid amber"
+    ],
     "hardness": 3.0,
-    "resistance": 5.0,
+    "resistance": 10.0,
     "hasGravity": false,
     "creativeTab": {
       "value": "CUSTOM:AlonsinwhatMod"
@@ -31,14 +33,14 @@
     "destroyTool": "pickaxe",
     "affectedBySilkTouch": true,
     "customDrop": {
-      "value": "CUSTOM:AmberGem"
+      "value": ""
     },
-    "dropAmount": 4,
+    "dropAmount": 1,
     "isBeaconBase": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
-    "canProvidePower": true,
-    "lightOpacity": 255,
+    "canProvidePower": false,
+    "lightOpacity": 0,
     "material": {
       "value": "ROCK"
     },
@@ -60,7 +62,7 @@
     },
     "luminance": 0.0,
     "unbreakable": false,
-    "breakHarvestLevel": 2,
+    "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -70,25 +72,19 @@
     "particleAmount": 4,
     "particleSpawningCondition": "ALWAYS",
     "hasInventory": false,
-    "guiBoundTo": "<NONE>",
-    "openGUIOnRightClick": false,
+    "guiBoundTo": "MelterGUI",
+    "openGUIOnRightClick": true,
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
-    "spawnWorldTypes": [
-      "Surface"
-    ],
+    "spawnWorldTypes": [],
     "restrictionBiomes": [],
-    "blocksToReplace": [
-      {
-        "value": "Blocks.STONE"
-      }
-    ],
-    "frequencyPerChunks": 12,
-    "frequencyOnChunk": 5,
-    "minGenerateHeight": 6,
-    "maxGenerateHeight": 50
+    "blocksToReplace": [],
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 0
   }
 }

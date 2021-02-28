@@ -1,5 +1,6 @@
 {
   "display": {
+    "background": "minecraft:textures/blocks/stone.png",
     "icon": {
       "item": "amberutils:ambergem"
     },
@@ -32,6 +33,5 @@
   },
   "rewards": {
     "experience": 1
-  },
-  "parent": "amberutils:tryingnewfoods"
+  }
 }
